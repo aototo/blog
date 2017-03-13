@@ -4,16 +4,21 @@ React的生命周期对组件而言是一个很重要的存在，每一个状态
 #### 第一次Redner
 ![](https://github.com/asd0102433/blog/blob/master/%E5%89%8D%E7%AB%AF/assets/Ini%C2%ADtial%20Render.png)
 
+首次渲染执行的顺序如图上
 
-首次渲染执行的顺序如图上，getDefaultProps相当于ES6中static defaultProps = {}，getInitialState就是constructor中的this.state={}。
+	getDefaultProps相当于ES6中staticdefaultProps = {}
+	getInitialState相当于constructor中的 this.state = {}
 
 #### Props 改变
+
 ![](https://github.com/asd0102433/blog/blob/master/%E5%89%8D%E7%AB%AF/assets/props%20change.png)
 
 #### State 改变
+
 ![](https://github.com/asd0102433/blog/blob/master/%E5%89%8D%E7%AB%AF/assets/state%20Change.png)
 
 #### 组件卸载
+
 ![](https://github.com/asd0102433/blog/blob/master/%E5%89%8D%E7%AB%AF/assets/Com%C2%ADpo%C2%ADnent%20Unmount.png)
 
 ####自定义组件的3个阶段
