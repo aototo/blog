@@ -57,7 +57,7 @@
 	   |—— sagas.js   	 # Home下的异步数据
 	   |—— action.js
 	   |——...
-       └──reducers.js      	 #进行reducer 合并
+       └── reducers.js      	 #进行reducer 合并
 ```
 
 可以说这套项目结构很适合大型的项目的组织，component下面包括了大量的通用组件，不管是项目的移植平台，模块复用都很好管理，containers下 index.js 由复用的模块以及页面场景下特殊的模块构成，同时负责模块跟Store数据的connect，对应的每个场景都拥有自身saga，reducer等。构建大型的项目结构参考这个也是一个非常棒的。
