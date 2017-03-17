@@ -52,7 +52,7 @@
    |—— containers               # 页面容器
        |—— HomePage
 	   |——...
-	   |—— index.js   	 # 组织了页面的结构
+	   |—— index.js   	 # 组织了页面的结构, 私有模块 
 	   |—— reducer.js 	 # Home下的reducer逻辑
 	   |—— sagas.js   	 # Home下的异步数据
 	   |—— action.js
