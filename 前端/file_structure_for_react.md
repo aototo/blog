@@ -100,8 +100,8 @@ return (
     );
 ```
 
-有了layout页面的布局细分就更加直观，明晰了。在管理reducer的时候会相对的麻烦，views/ 下的主入口页面不但负责页面的结构，还需要整合 components/ 文件下所有的reducer子集，需要跨文件的处理。Home下Preview组件 对应的reducer、action合并在一起，方便了修改同时控制自身的reducer业务逻辑。
-比如  listReducer -> List ，确实很适合大型团队的分工合作。
+有了layout页面的布局细分就更加直观，明晰了。在管理reducer的时候会相对的麻烦，views/ 下的主入口页面不但负责页面的结构，还需要整合 components/Home/ 文件下所有的模块的reducer，需要跨文件的处理。Home下Preview组件的reducer、action合并在一起，方便了修改同时控制自身的reducer业务逻辑（对于细分到组件的reducer,action本身逻辑也不会很庞大）。
+比如 listReducer -> List ，确实很适合大型团队的分工合作。
 
 ---
 
