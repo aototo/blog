@@ -46,19 +46,19 @@
 
 ```
 |——app
-   |—— component                # 这里放的都是公共部分的组件
-      |—— Header 	   	# 使用 styled-components 来定义基础组件
-      └── Fotter
-   |—— containers               # 页面容器
+   |—— component                 # 这里放的都是公共部分的组件
+       |—— Header 	   	 # 使用 styled-components 来定义基础组件
+       └── Fotter
+   |—— containers                # 页面容器
        |—— HomePage
-	       |—— ...
-	       |—— index.js   	 # 组织了页面的结构, 私有模块
-	       |—— reducer.js 	 # Home下的reducer逻辑
-	       |—— component     # 私有模块
-	       |—— sagas.js   	 # Home下的异步数据
-	       |—— action.js
-	       |——...
-               └── reducers.js 
+	   |—— ...
+	   |—— index.js   	 # 组织了页面的结构, 私有模块
+	   |—— reducer.js 	 # Home下的reducer逻辑
+	   |—— component         # 私有模块
+	   |—— sagas.js   	 # Home下的异步数据
+	   |—— action.js
+	   |——...
+            └── reducers.js 
 ```
 
 可以说这套项目结构很适合大型的项目的组织，component下面包括了大量的通用组件，不管是项目的移植平台，模块复用都很好管理，containers下 index.js 由复用的模块以及页面场景下特殊的模块构成，同时负责模块跟Store数据的connect，对应的每个场景都拥有自身saga，reducer等。构建大型的项目结构参考这个也是一个非常棒的。
@@ -75,15 +75,15 @@ react boilerplate 确实可以解决大型项目的结构问题，但是componen
    |  |—— HomeRedux.js    # Home Redux 集合
    |  └── Detail.js       # Detail Page 页面
    |—— redux
-   |  └── reducers.js     # 统一了views下的所有reducer
+   |   └── reducers.js     # 统一了views下的所有reducer
    |—— layouts            # layouts 负责整个app 的布局结构
-   |  |—— Frame.js
-   |  |—— Nav.js      
+   |   |—— Frame.js
+   |   |—— Nav.js      
    |—— components
-   |  |—— Common          # 通用组件
-   |  |—— Home            # Home Page下用到的组件
-   |  |   |—— Preview.js
-   |  |   └── PreviewRedux.js   # Preview组件用到的reducer, 以及action
+   |   |—— Common          # 通用组件
+   |   |—— Home            # Home Page下用到的组件
+   |   |   |—— Preview.js
+   |   |   └── PreviewRedux.js   # Preview组件用到的reducer, 以及action
 ```
 `layouts` 代码
 ```
