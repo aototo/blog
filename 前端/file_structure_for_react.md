@@ -147,7 +147,7 @@ export const createRoutes = (store) => ({
   ]
 })
 ```
-一个Counter 模块包含了自身的assets，components，containers
+routes 作为主入口，并且把所有路由对应的组件，assets, modules全部都集中在了一起,更像mvc的命名组织。reducer、action整合为modules， components作为view，container连接actions和store。
 ```
 Counter/
 	components/   # 页面的组件
