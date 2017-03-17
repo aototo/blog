@@ -4,6 +4,7 @@
 
 ## react
 - [react 生命周期详解(React Lifecycle)](https://github.com/asd0102433/blog/blob/master/%E5%89%8D%E7%AB%AF/React-Lifecycle.md)
+- [如何合理布置React/Redux的目录结构](https://github.com/asd0102433/blog/blob/master/%E5%89%8D%E7%AB%AF/file_structure_for_react.md)
 
 ## Git
 - [git 详细的操作指南笔记(从零开始)](https://github.com/asd0102433/blog/issues/3)
