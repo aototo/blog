@@ -70,19 +70,19 @@ react boilerplate 确实可以解决大型项目的结构问题，但是componen
 ```
 |── src/
 |  |── views
-      |—— Home.js         # Home Page 页面
-      |—— HomeRedux.js    # Home Redux 集合
-      └── Detail.js       # Detail Page 页面
+   |  |—— Home.js         # Home Page 页面
+   |  |—— HomeRedux.js    # Home Redux 集合
+   |  └── Detail.js       # Detail Page 页面
    |—— redux
-      └── reducers.js     # 统一了views下的所有reducer
+   |  └── reducers.js     # 统一了views下的所有reducer
    |—— layouts            # layouts 负责整个app 的布局结构
-      |—— Frame.js
-      |—— Nav.js      
+   |  |—— Frame.js
+   |  |—— Nav.js      
    |—— components
-      |—— Common          # 通用组件
-      |—— Home            # Home Page下用到的组件
-      |—— Preview.js
-      └── PreviewRedux.js   # 组件用到的reducer, 以及action
+   |  |—— Common          # 通用组件
+   |  |—— Home            # Home Page下用到的组件
+   |  |   |—— Preview.js
+   |  |   └── PreviewRedux.js   # Preview组件用到的reducer, 以及action
 ```
 `layouts` 代码
 ```
@@ -99,7 +99,7 @@ return (
     );
 ```
 
-有了layout页面的布局细分就更加直观，明晰了。在管理reducer的时候会相对的麻烦，views/ 下的主入口页面不但负责页面的结构，还需要整合 components/ 文件下所有的reducer子集，需要跨文件的处理。components/component 对应的reducer、action合并在一起，方便了修改同时控制自身的reducer业务逻辑。
+有了layout页面的布局细分就更加直观，明晰了。在管理reducer的时候会相对的麻烦，views/ 下的主入口页面不但负责页面的结构，还需要整合 components/ 文件下所有的reducer子集，需要跨文件的处理。Home下Preview组件 对应的reducer、action合并在一起，方便了修改同时控制自身的reducer业务逻辑。
 比如  listReducer -> List ，确实很适合大型团队的分工合作。
 
 ---
