@@ -17,7 +17,8 @@ reducers/
     command.jsx
     newReducers.jsx <- here
 ```
-上面这种是官方demo http://redux.js.org/docs/advanced/ExampleRedditAPI.html中文件结构，actions，reducers，containers中放着每个模块的对应的结构文件，看过去很清晰，但是有一个麻烦的地方，就是当你添加一个组件的时候你就需要在3个目录下操作，以及跨文件的管理对应的文件，有点不方便。
+上面这种是官方demo http://redux.js.org/docs/advanced/ExampleRedditAPI.html
+结构，actions，reducers，containers中放着每个模块的对应的结构文件，看过去很清晰，但是有一个麻烦的地方，就是当你添加一个组件的时候你就需要在3个目录下操作，以及跨文件的管理对应的文件，有点不方便。
 
 ---
 
