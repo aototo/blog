@@ -6,16 +6,16 @@
 ```
 actions/
     CommandActions.jsx
-    newAction.jsx  <- here
+    newAction.jsx      <- here
 components/
     Command.jsx
-    newComponent.jsx <- here
+    newComponent.jsx   <- here
 containers/
     Command.jsx
-    newContainers.jsx <- here
+    newContainers.jsx  <- here
 reducers/
     command.jsx
-    newReducers.jsx <- here
+    newReducers.jsx    <- here
 ```
 上面这种是官方demo http://redux.js.org/docs/advanced/ExampleRedditAPI.html
 结构，actions，reducers，containers中放着每个模块的对应的结构文件，看过去很清晰，但是有一个麻烦的地方，就是当你添加一个组件的时候你就需要在3个目录下操作，以及跨文件的管理对应的文件，有点不方便。
@@ -46,16 +46,17 @@ reducers/
 
 ```
 app/
-	component/         #这里放的都是公共部分的组件
+	component/                 # 这里放的都是公共部分的组件
+	
 		//使用 styled-components 来定义基础组件
 		Header/
 		Fotter/
-	containers/        #页面容器
+	containers/                # 页面容器
 		HomePage/
 			...
-			index.js   #组织了页面的结构
-			reducer.js #Home下的reducer逻辑
-			sagas.js   #Home下的异步数据
+			index.js   # 组织了页面的结构
+			reducer.js # Home下的reducer逻辑
+			sagas.js   # Home下的异步数据
 			action.js
 			...
 	reducers #进行reducer 合并
@@ -71,19 +72,19 @@ react boilerplate 确实可以解决大型项目的结构问题，但是componen
 ```
 src/
 	views/
-		Home.js         #Home Page 页面
-		HomeRedux.js    #Home Redux 集合
-		Detail.js       #Detail Page 页面
+		Home.js         # Home Page 页面
+		HomeRedux.js    # Home Redux 集合
+		Detail.js       # Detail Page 页面
 	redux/
-		reducers.js     #统一了views下的所有reducer
-	layouts/            #layouts 负责整个app 的布局结构
+		reducers.js     # 统一了views下的所有reducer
+	layouts/                # layouts 负责整个app 的布局结构
 		Frame.js
 		Nav.js      
 	components/
-		Common/         #通用组件
-		Home/           #Home Page下用到的组件
+		Common/         # 通用组件
+		Home/           # Home Page下用到的组件
 			Preview.js
-			PreviewRedux.js   #组件用到的reducer, 以及action
+			PreviewRedux.js   # 组件用到的reducer, 以及action
 ```
 `layouts` 代码
 ```
