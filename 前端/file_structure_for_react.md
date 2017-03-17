@@ -4,18 +4,18 @@
 
 按照文件类型划分，不是很复杂的项目可以这样规划。
 ```
-|—— actions/
+|—— actions
     |—— CommandActions.jsx
-    |—— newAction.jsx      <- here
-|—— components/
+    └── newAction.jsx      <- here
+|—— components
     |—— Command.jsx
-    |—— newComponent.jsx   <- here
-|—— containers/
+    └── newComponent.jsx   <- here
+|—— containers
     |—— Command.jsx
-    |—— newContainers.jsx  <- here
-|—— reducers/
+    └── newContainers.jsx  <- here
+└── reducers
     |—— command.jsx
-    |—— newReducers.jsx    <- here
+    └── newReducers.jsx    <- here
 ```
 上面这种是官方demo http://redux.js.org/docs/advanced/ExampleRedditAPI.html
 结构，actions，reducers，containers中放着每个模块的对应的结构文件，看过去很清晰，但是有一个麻烦的地方，就是当你添加一个组件的时候你就需要在3个目录下操作，以及跨文件的管理对应的文件，有点不方便。
@@ -24,20 +24,20 @@
 
 按照组件划分，一个组件包含自身action，reducers，style等相关的文件，这样在修改某些文件的时候就非常的容易。相对于项目简单，并且不需要redux可以参考这样的结构。
 ```
-    |—— app/
+    |—— app
         |—— App.jsx
         |—— reducers.jsx
         |—— routes.jsx
-    |—— home/
+    |—— home
         |—— index.jsx
         |—— Home.jsx
         |—— HomeActions.jsx
-        |—— HomeReducer.jsx
-    |——  product/
+        └── HomeReducer.jsx
+    |——  product
         |—— index.jsx
         |—— ProductList.jsx
         |—— ProductActions.jsx
-        |—— ProductReducer.jsx
+        └── ProductReducer.jsx
 ```
 
 ---
@@ -45,12 +45,12 @@
 如果项目十分的巨大，大量的模块用以上的2个方案不可行，首先复用模块和特定场景下的模块需要分开进行处理，页面的布局view必须整理出来,可以参考[react boilerplate](https://github.com/react-boilerplate/react-boilerplate)。
 
 ```
-|——app/
-   |—— component/                # 这里放的都是公共部分的组件
-      |—— Header/ 	   	 # 使用 styled-components 来定义基础组件
-      └── Fotter/
-   |—— containers/               # 页面容器
-       |—— HomePage/
+|——app
+   |—— component                # 这里放的都是公共部分的组件
+      |—— Header 	   	# 使用 styled-components 来定义基础组件
+      └── Fotter
+   |—— containers               # 页面容器
+       |—— HomePage
 	   |——...
 	   |—— index.js   	 # 组织了页面的结构
 	   |—— reducer.js 	 # Home下的reducer逻辑
@@ -69,18 +69,18 @@ react boilerplate 确实可以解决大型项目的结构问题，但是componen
 
 ```
 |── src/
-|  |── views/
+|  |── views
       |—— Home.js         # Home Page 页面
       |—— HomeRedux.js    # Home Redux 集合
       └── Detail.js       # Detail Page 页面
-   |——redux/
+   |——redux
       └── reducers.js     # 统一了views下的所有reducer
-   |——layouts/                # layouts 负责整个app 的布局结构
+   |——layouts             # layouts 负责整个app 的布局结构
       |—— Frame.js
       |—— Nav.js      
-   |——components/
-      |—— Common/         # 通用组件
-      |—— Home/           # Home Page下用到的组件
+   |——components
+      |—— Common          # 通用组件
+      |—— Home            # Home Page下用到的组件
       |—— Preview.js
       └── PreviewRedux.js   # 组件用到的reducer, 以及action
 ```
