@@ -33,7 +33,7 @@
         |—— Home.jsx
         |—— HomeActions.jsx
         |—— HomeReducer.jsx
-   |——  product/
+    |——  product/
         |—— index.jsx
         |—— ProductList.jsx
         |—— ProductActions.jsx
