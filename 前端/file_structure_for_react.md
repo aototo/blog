@@ -130,7 +130,7 @@ https://github.com/bodyno/react-starter-kit，2个项目，不过他们的名字
 │           └── routes **    # 不规则子路由(** 可选择的)
 ```
 
-routes 作为主入口。
+routes 作为主入口，并且把所有路由对应的组件，assets, modules全部都集中在了一起,更像mvc的命名组织。reducer、action整合为modules， components作为view，container连接actions和store。
 
 ```
 export const createRoutes = (store) => ({
