@@ -8,7 +8,7 @@
 
 ## Git and Webpack
 - [git 详细的操作指南笔记(从零开始)](https://github.com/asd0102433/blog/issues/3)
-- [webpack 快速简单，配置雏形demo](https://github.com/asd0102433/blog/blob/master/%E5%89%8D%E7%AB%AF/webpack_concise.md)
+- [webpack 快速简单，配置完整雏形demo](https://github.com/asd0102433/blog/blob/master/%E5%89%8D%E7%AB%AF/webpack_concise.md)
 
 ## 面试
 - [大公司面试要求，面试题资源整合，刷题吧](https://github.com/asd0102433/blog/blob/master/%E5%89%8D%E7%AB%AF/%E9%9D%A2%E8%AF%95.md)
