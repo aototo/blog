@@ -1,4 +1,5 @@
-## html css、css3 常用的收集
+## css有些属性容易忘记，半天不写就要去查api，有时候api还不好使，于是还是记下来以后方便用，后续会慢慢补充进来的。
+
 
 #####  `outline` 当选中input元素的时候会出现状态线
 	An outline is a line that is drawn around elements (outside the borders) to make the element "stand out".
@@ -9,11 +10,13 @@
     <p contenteditable="true">可编辑</p>
   
 
-##### `webkit-playsinline 等于 true`
-	手机video 都可以在页面中播放，而不是全屏播放了。
+##### `webkit-playsinline `
+手机video 都可以在页面中播放，而不是全屏播放了。
+
+	<video id="myvideo" src="test.mp4" webkit-playsinline="true"></video>
 
 
-##### position: absolute;时 margin 失效
+##### position: absolute， 让margin有效的
 	
 	设置left:0, right:0 就可以。原因是2边都是0不存在边距，element就可以得出距离，并居中。
 
@@ -112,3 +115,33 @@ http://www.cnblogs.com/rubylouvre/p/3471490.html
 	{
 		box-sizing: border-box;
 	}
+
+
+##### calc() function, 计算属性值
+https://www.w3schools.com/cssref/func_calc.asp
+    
+    div {
+        width: calc(100% - 100px);
+    }
+    
+上面的例子就是让宽度为100%减去100px的值，项目中很适用，IE9以上
+
+
+##### css3 linear-gradient 线性渐变
+默认开始在top, 也可以自定义方向。
+    
+    div {
+        linear-gradient(red, yellow)
+    }
+    
+    background: linear-gradient(direction, color-stop1, color-stop2, ...);
+    
+##### 常用的选择器 :nth-child() Selector
+选择父类下第一个子节点，p元素
+
+    p:nth-child(1) {
+        ...
+    }
+---
+
+后续追加...有错误的地方请指正，谢谢。
