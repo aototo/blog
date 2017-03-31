@@ -1,9 +1,18 @@
 ### css有些属性容易忘记，半天不写就要去查api，有时候api还不好使，于是还是记下来以后方便用，后续会慢慢补充进来的。
 
+> Github: https://github.com/asd0102433/blog
+博客长期更新，喜欢的朋友star一下
 
-#####  `outline` 当选中input元素的时候会出现状态线
+#####  `outline` 移除当选中input元素的时候会出现状态线
+<input placeholder ="你试试 点这个框框"/> 
+
 	An outline is a line that is drawn around elements (outside the borders) to make the element "stand out".
 	包裹elements 的一个线，一般设置成none 。
+	
+	div {
+	    outline: none; //一般情况下移除它
+	    // outline: 5px dotted red; 也可以设置样式
+	}
 	
 ##### `contenteditable` 设置element是否可编辑
 	
@@ -18,9 +27,16 @@
 
 ##### position: absolute， 让margin有效的
 	
-	设置left:0, right:0 就可以。原因是2边都是0不存在边距，element就可以得出距离，并居中。
+	设置left:0, right:0 margin: 0 auto; 就可以。原因是2边都是0不存在边距，element就可以得出距离，并居中。
+	
+	div {
+	    position: absolute;
+	    left: 0;
+	    right: 0;
+	    margin: 0 auto;
+	}
 
-##### 使用clearfix 清楚浮动
+##### 使用clearfix 清除浮动，解决父类高度崩塌。
 	
 	.clearfix {
 		zoom: 1;
@@ -38,35 +54,34 @@
 
 ##### user-select 禁止用户选中文本
 	
-	-webkit-user-select: none; /* Chrome, Opera, Safari */
-    -moz-user-select: none; /* Firefox 2+ */
-    -ms-user-select: none; /* IE 10+ */
-    user-select: none; /* Standard syntax */
+    div {
+        user-select: none; /* Standard syntax */
+    }
 
 
 ##### 清除手机tap事件后element 时候出现的一个高亮
 	
-	*{
+	* {
 		-webkit-tap-highlight-color: rgba(0,0,0,0);
 	}
 
 #### ::-webkit-scrollbar-thumb
 	
-	可以修改谷歌的滚动条样式，safari好像也可以
+	可以修改浏览器的滚动条样式。IE火狐可能不支持。
 
 #### -webkit-appearance:none
 	
 1. To apply platform specific styling to an element that doesn't have it by default
 2. To remove platform specific styling to an element that does have it by default
 
-移除浏览器默认的样式，比如chrome的input默认样式
+移除浏览器默认的样式，比如chrome的input默认样式，然后就可以定义需要的样式。
 	
 	input, button, textarea, select {
 		*font-size: 100%;
 		-webkit-appearance:none;
 	}
 
-#### CSS开启硬件加速
+##### CSS开启硬件加速
 http://www.cnblogs.com/rubylouvre/p/3471490.html
 
 	-webkit-transform: translateZ(0);
@@ -142,6 +157,48 @@ https://www.w3schools.com/cssref/func_calc.asp
     p:nth-child(1) {
         ...
     }
+
+
+##### -webkit-font-smoothing 字体抗锯齿
+使用该属性能让页面上的字体变得清晰，但是也会造成font-weight: bold 加粗变得异常。不信你试试...
+
+    div {
+        -webkit-font-smoothing: antialiased; 
+    }
+    
+---
+`更新3-31`
+##### CSS3 filter Property 图片过滤，控制灰度
+    
+    img {
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+    }
+
+移动端可以使用，IE兼容不好。
+
+#### 使用css创建三角形
+这个很多面试题好像又问到，但实际中我也确实使用了。
+    
+    div {
+        border-bottom: 10px solid white;
+        border-right: 10px solid transparent;
+        border-left: 10px solid transparent;
+        height: 0px; 
+        width: 0px; 
+    }
+    
+transparent 透明
+
 ---
 
 后续追加...有错误的地方请指正，谢谢。
+
+下面是一些CSS的网站，项目中也经常使用的。
+
+[Css3动画手册](http://isux.tencent.com/css3/)
+[Css参考手册](http://css.doyoe.com/)
+[Anicollection 动画库](http://anicollection.github.io/#/)
+[Animate 动画库](https://daneden.github.io/animate.css/)
+[csshake 抖动很逗](http://elrumordelaluz.github.io/csshake/)
+[字体图标](http://weloveiconfonts.com/)
