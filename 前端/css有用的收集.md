@@ -1,8 +1,5 @@
 ### css有些属性容易忘记，半天不写就要去查api，有时候api还不好使，于是还是记下来以后方便用，后续会慢慢补充进来的。
 
-> Github: https://github.com/asd0102433/blog
-博客长期更新，喜欢的朋友star一下
-
 #####  `outline` 移除当选中input元素的时候会出现状态线
 <input placeholder ="你试试 点这个框框"/> 
 
@@ -197,8 +194,13 @@ transparent 透明
 下面是一些CSS的网站，项目中也经常使用的。
 
 [Css3动画手册](http://isux.tencent.com/css3/)
+
 [Css参考手册](http://css.doyoe.com/)
+
 [Anicollection 动画库](http://anicollection.github.io/#/)
+
 [Animate 动画库](https://daneden.github.io/animate.css/)
+
 [csshake 抖动很逗](http://elrumordelaluz.github.io/csshake/)
+
 [字体图标](http://weloveiconfonts.com/)
