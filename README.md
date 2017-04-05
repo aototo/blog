@@ -12,7 +12,7 @@
 
 ## 知识 & 问题
 - [大公司面试要求，面试题资源整合，刷题吧](https://github.com/asd0102433/blog/blob/master/%E5%89%8D%E7%AB%AF/%E9%9D%A2%E8%AF%95.md)
-- [每期做5道Html && JS && Css的问题](https://github.com/asd0102433/blog/wiki)
+- [每期做5道Html && JS && Css的问题](https://github.com/asd0102433/blog/wiki)如果你有兴趣，一起学习吧...每期更新5道题，用于自己深入理解。每期1-2天更新。写题纯粹是强迫自己去复习去总结去实践，知识从css简单到复杂的JS算法。期间肯定有问题，一起探讨！
   - [第一期](https://github.com/asd0102433/blog/wiki/%E7%AC%AC%E4%B8%80%E6%9C%9F)
   - [第二期](https://github.com/asd0102433/blog/wiki/%E7%AC%AC%E4%BA%8C%E6%9C%9F2017-4-5)
 
