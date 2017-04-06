@@ -109,13 +109,14 @@
  ```
 
 - ### 给setState传入function
-可以使用function来更新state
+ 可以使用function来更新state
+
+ ```javascript
     
-    ```javascript
     this.setState((prevState, props) => ({
         return ...
     }));
-    ```
+ ```
     
 - ### 通过ref属性获取component
 
