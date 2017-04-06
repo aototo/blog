@@ -8,33 +8,50 @@
 
 #### 进阶书籍
 `《JavaScript权威指南》`  JavaScript圣经之一
+
 `《JavaScript.The.Good.Parts》` JavaScript精神领袖Douglas Crockford的大作
+
 `《JavaScript高级程序设计》` 作者Nicholas C. Zakas
+
 `《高性能JavaScript》` 作者Nicholas C. Zakas
+
 `《Eloquent JavaScript》` 非常值得一读
 
 #### 高阶书籍
 `《High Performance Web Sites》`高性能网站建设 ，非常不错
+
 `《JavaScript Patterns》`介绍到了各种经典的模式
+
 `《Pro.JavaScript.Design.Patterns》`JavaScript设计模式的书
+
 `《Developing JavaScript Web Applications》`针对MVC模式有较为深入的讲解.
+
 `《Developing Large Web Applications》`：大型的Web如何进行JavaScript架构设计，值得一读。
 
 ---
 
 #### NodeJs系列
 `《Node.js In Action》`
+
 `《Hands on node.js PDF》`
+
 `《深入浅出Node.js》`
+
 `《MongoDB Cookbook Second Edition]》`
+
 `《MongoDB in Action]》`
 
 #### 后端服务HTTP等
 `《Nginx HTTP Server 3rd Edition》`
+
 `《ElasticSearch In Action》`
+
 `《ElasticSearch Server Second Edition》`
+
 `《Advanced Programming in the Unix Environment》`
+
 `《HTTP权威指南》`
+
 `《Computer Networks》`
 
 ---
