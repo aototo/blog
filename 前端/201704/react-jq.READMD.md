@@ -57,7 +57,9 @@
     withRouter(SomeComponent)
     ```
 例子：
+
     ```javascript
+    
     var Enhance = ComposedComponent => class extends React.Component {
       componentDidMount() {
         this.setState({ name: "李狗子" });
@@ -66,13 +68,14 @@
         return <ComposedComponent {...this.props} name = {this.state.name} />;
       }
     };
+    
     ```
     
 - ### 受控组件，不受控组件
 项目中经常会用到这两种情况如：
 受控组件，更新的时候需要使用this.setState
 
-    ```javascript
+```javascript
     constructor() {
         super();
         this.state = {value: ""}
@@ -87,7 +90,7 @@
     render() {
         return <input type="text" ref="myInput" />
     }
-    ```
+ ```
     
     两种方法都可以在特定的场合去使用，个人觉得数据相对重要的页面需要使用受控组件会比较合适。
 
