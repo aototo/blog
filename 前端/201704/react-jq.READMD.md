@@ -150,12 +150,16 @@ props上面如果有非常多的属性，会造成非常昂贵的计算。正确
 ---
     
 以上是平时写React用到的一些写法小技巧，说有用还蛮有用的！
+
 有错误的地方还请指正！谢谢大家。
 
 
 下面2个链接都很棒哦！记得收藏star...
+
 参考：
+
 https://github.com/vasanthk/react-bits
 
 react 代码规范
+
 https://github.com/airbnb/javascript/tree/master/react
