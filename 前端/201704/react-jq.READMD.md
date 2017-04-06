@@ -51,14 +51,15 @@
     
 - ### Higher Order Component 高阶组件
 高阶组件很像decorator，提升组件的能力。比如你想一些组件里面使用一下功能，react-router 中
-    
-    ```javascript
+
+```javascript
     import { withRouter } from 'react-router'
     withRouter(SomeComponent)
-    ```
+```
+
 例子：
 
-    ```javascript
+```javascript
     
     var Enhance = ComposedComponent => class extends React.Component {
       componentDidMount() {
@@ -69,7 +70,7 @@
       }
     };
     
-    ```
+```
     
 - ### 受控组件，不受控组件
 项目中经常会用到这两种情况如：
@@ -83,13 +84,16 @@
     render() {
         return <input type="text" value={this.state.value} />
     }
-    ```
+```
     
-    不受控组件，主要需要通过ref来获取input的值。
-    ```javascript
+不受控组件，主要需要通过ref来获取input的值。
+    
+```javascript
+
     render() {
         return <input type="text" ref="myInput" />
     }
+    
  ```
     
     两种方法都可以在特定的场合去使用，个人觉得数据相对重要的页面需要使用受控组件会比较合适。
@@ -97,13 +101,13 @@
 - ### 使用三元表达式
 项目中经常有判断语句，用三元表达式可以很方便的写出想要的逻辑
     
-    ```javascript
+ ```javascript
     const demo = ({ isOK }) => {
         return isOK 
         ? <p> Yes </p> 
         : <p> No </p>
     };
-    ```
+```
 
 - ### 给setState传入function
 可以使用function来更新state
@@ -115,9 +119,10 @@
     ```
     
 - ### 通过ref属性获取component
+
 场景：下面的例子是初始化组件后，让input默认获取光标。ref最终指向的已经渲染好的DOM节点，或者是react class的实例。具体可以看[官方的文档](https://zhenyong.github.io/react/docs/more-about-refs.html)
-    
-    ```javascript
+
+```javascript
     componentDidMount() {
         this.input.focus();
     }
@@ -128,18 +133,20 @@
             />
         )
     }
-    ```
-- ### 切勿使用...props传递数据
-一个非常错误的做法比如：
-    ```javascript
-    <Component {...props} />
-    ```
-    
-    props上面如果有非常多的属性，会造成非常昂贵的计算。正确的应该
+```
 
-    ```javascript
+- ### 切勿使用...props传递数据
+
+一个非常错误的做法比如：
+```javascript
+    <Component {...props} />
+```
+    
+props上面如果有非常多的属性，会造成非常昂贵的计算。正确的应该
+
+```javascript
     <Component name = { props.name } />
-    ```
+```
 ---
     
 以上是平时写React用到的一些写法小技巧，说有用还蛮有用的！
