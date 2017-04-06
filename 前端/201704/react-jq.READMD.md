@@ -1,4 +1,3 @@
-> Github: https://github.com/asd0102433/blog
 喜欢文章的朋友star 支持一下，长期更新...绝不偷懒
 
 - ### Stateless function 无状态组件
@@ -57,7 +56,7 @@
     withRouter(SomeComponent)
  ```
 
-例子：
+ 例子：
 
  ```javascript
     
