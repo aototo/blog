@@ -31,7 +31,7 @@
 
     比如 `<input type="text" >` 每次写很麻烦吧，可以封装一个成一个组件
 ```javascript
-    const input = (props) => {
+    const Input = (props) => {
         return <input type = {props.type} {...props} />
     }
 ```
