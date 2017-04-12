@@ -1,5 +1,8 @@
 ### css有些属性容易忘记，半天不写就要去查api，有时候api还不好使，于是还是记下来以后方便用，后续会慢慢补充进来的。
 
+> Github: https://github.com/asd0102433/blog
+博客长期更新，喜欢的朋友star一下
+
 #####  `outline` 移除当选中input元素的时候会出现状态线
 <input placeholder ="你试试 点这个框框"/> 
 
@@ -14,12 +17,15 @@
 ##### `contenteditable` 设置element是否可编辑
 	
     <p contenteditable="true">可编辑</p>
+    
+可以通过input, blur事件来监听element的输入和输入完后鼠标离开。
   
+ ---
 
 ##### `webkit-playsinline `
 手机video 都可以在页面中播放，而不是全屏播放了。
 
-	<video id="myvideo" src="test.mp4" webkit-playsinline="true"></video>
+	<video src="test.mp4" webkit-playsinline="true"></video>
 
 
 ##### position: absolute， 让margin有效的
@@ -65,11 +71,13 @@
 #### ::-webkit-scrollbar-thumb
 	
 	可以修改浏览器的滚动条样式。IE火狐可能不支持。
+	
+---
 
 #### -webkit-appearance:none
 	
-1. To apply platform specific styling to an element that doesn't have it by default
-2. To remove platform specific styling to an element that does have it by default
+> 1. To apply platform specific styling to an element that doesn't have it by default
+> 2. To remove platform specific styling to an element that does have it by default
 
 移除浏览器默认的样式，比如chrome的input默认样式，然后就可以定义需要的样式。
 	
@@ -96,8 +104,6 @@ http://www.cnblogs.com/rubylouvre/p/3471490.html
 #####  transform-style: preserve-3d   让元素支持3d
 	
 	div {
-	    -webkit-transform: rotateY(60deg); /* Chrome, Safari, Opera */
-	    -webkit-transform-style: preserve-3d; /* Chrome, Safari, Opera */
 	    transform: rotateY(60deg);
 	    transform-style: preserve-3d;
 	}
@@ -139,6 +145,8 @@ https://www.w3schools.com/cssref/func_calc.asp
 上面的例子就是让宽度为100%减去100px的值，项目中很适用，IE9以上
 
 
+---
+
 ##### css3 linear-gradient 线性渐变
 默认开始在top, 也可以自定义方向。
     
@@ -165,17 +173,22 @@ https://www.w3schools.com/cssref/func_calc.asp
     
 ---
 `更新3-31`
-##### CSS3 filter Property 图片过滤，控制灰度
+##### CSS3 filter Property 图片过滤
     
     img {
-        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-        filter: grayscale(100%);
+        filter: grayscale(100%); //灰度
+        filter: blur(5px); //模糊
+        filter:brightness(200%); //高亮
+        filter:saturate(8); //饱和
+        filter:sepia(100%); //怀旧
+        ...
     }
 
-移动端可以使用，IE兼容不好。
+移动端可以使用，IE兼容不好。更多请看
+https://www.w3schools.com/cssref/css3_pr_filter.asp
 
 #### 使用css创建三角形
-这个很多面试题好像又问到，但实际中我也确实使用了。
+这个很多面试题好像问到，但实际中我也确实使用了。
     
     div {
         border-bottom: 10px solid white;
@@ -187,20 +200,61 @@ https://www.w3schools.com/cssref/func_calc.asp
     
 transparent 透明
 
+##### clip属性，截取你想要显示的图片
+    
+    img {
+        position: absolute;
+        clip: rect(0px,60px,200px,0px);
+    }
+    
+你有兴趣可以看
+https://tympanus.net/codrops/2013/01/16/understanding-the-css-clip-property/
+
+##### 设置文字，字母间距，很实用 letter-spacing
+    
+    h1 {
+        letter-spacing: *px; //也可以是负数
+    }
+
 ---
+
+`更新4-3 补充`
+
+关于display: box 和 display: flex，前者是2009实施，后者2012年，如果你的安卓比较老请使用display: box，但是2者的表现可能有点不同。下面是兼容方法。
+
+    display: -webkit-box; /* Chrome 4+, Safari 3.1, iOS Safari 3.2+ */
+    display: -moz-box; /* Firefox 17- */
+    display: -webkit-flex; /* Chrome 21+, Safari 6.1+, iOS Safari 7+, Opera 15/16 */
+    display: -moz-flex; /* Firefox 18+ */
+    display: -ms-flexbox; /* IE 10 */
+    display: flex; /* Chrome 29+, Firefox 22+, IE 11+, Opera 12.1/17/18, Android 4.4+ */
+
+[知乎一丝](https://www.zhihu.com/question/22991944/answer/23302749)具体问题可以参考这篇文章。
+
+---
+
+`更新4-12 补充`
+
+##### 图片模糊效果
+    
+    -webkit-filter: blur(5px);
+    
+##### 图片运动过程中，导致图片模糊
+在animation过程中，图片会出现模糊的情况，可以设置如下在图片上面。
+
+    transform: translate3d(0, 0, 0);
+    
+---
+
 
 后续追加...有错误的地方请指正，谢谢。
 
 下面是一些CSS的网站，项目中也经常使用的。
 
 [Css3动画手册](http://isux.tencent.com/css3/)
-
 [Css参考手册](http://css.doyoe.com/)
-
 [Anicollection 动画库](http://anicollection.github.io/#/)
-
 [Animate 动画库](https://daneden.github.io/animate.css/)
-
 [csshake 抖动很逗](http://elrumordelaluz.github.io/csshake/)
-
 [字体图标](http://weloveiconfonts.com/)
+[w3schools](https://www.w3schools.com/cssref/pr_pos_clip.asp)
