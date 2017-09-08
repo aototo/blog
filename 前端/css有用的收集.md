@@ -1,8 +1,5 @@
 ### css有些属性容易忘记，半天不写就要去查api，有时候api还不好使，于是还是记下来以后方便用，后续会慢慢补充进来的。
 
-> Github: https://github.com/asd0102433/blog
-博客长期更新，喜欢的朋友star一下
-
 #####  `outline` 移除当选中input元素的时候会出现状态线
 <input placeholder ="你试试 点这个框框"/> 
 
@@ -234,16 +231,27 @@ https://tympanus.net/codrops/2013/01/16/understanding-the-css-clip-property/
 ---
 
 `更新4-12 补充`
-
-##### 图片模糊效果
     
-    -webkit-filter: blur(5px);
-    
-##### 图片运动过程中，导致图片模糊
+##### 图片运动过程中，图片模糊问题
 在animation过程中，图片会出现模糊的情况，可以设置如下在图片上面。
 
     transform: translate3d(0, 0, 0);
     
+    
+##### 使用margin aotu 
+    
+    div {
+      width: 100px;
+      position: absolute;
+      right: 0;
+    }
+    
+    // 使用margin-left: auto 自动算出做左边宽度，实现内容贴右边
+    div {
+      width: 100px;
+      margin-left: auto;
+    }
+
 ---
 
 
