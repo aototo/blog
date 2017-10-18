@@ -2,7 +2,7 @@
 - [js构造函数中的疑点](https://github.com/aototo/blog/issues/9)
 - [webpack静态资源引入几种解决方案](https://github.com/aototo/blog/issues/10)
 ## 性能优化
-- [Redux compose and middleware 源码分析](https://github.com/aototo/redux-learn/issues/1)
+- [Redux compose and middleware 源码分析](https://github.com/aototo/blog/issues/1)
 - [React and Redux 性能优化总结](https://github.com/aototo/blog/issues/2)
 
 ## 框架 & 项目经验
