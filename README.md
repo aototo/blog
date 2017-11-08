@@ -14,6 +14,9 @@
 - [基于socket.io的实时在线HTML5游戏思路](https://github.com/aototo/blog/issues/8)
 - [ES6 promise & async](https://github.com/aototo/blog/issues/11)
 
+### react-native
+[react-native run android 环境配置](https://github.com/aototo/blog/issues/12)
+
 ## 前端自动化 & 工具
 - [git 详细的操作指南笔记(从零开始)](https://github.com/aototo/blog/issues/3)
 - [webpack 快速简单，配置完整雏形demo](https://github.com/aototo/blog/blob/master/%E5%89%8D%E7%AB%AF/webpack_concise.md)
