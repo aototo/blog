@@ -1,7 +1,7 @@
 ## 杂文2017
 - [js构造函数中的疑点](https://github.com/aototo/blog/issues/9)
 - [webpack静态资源引入几种解决方案](https://github.com/aototo/blog/issues/10)
-- [eslint & atom，基础配置 ](https://github.com/aototo/blog/issues/14)
+
 ## 性能优化
 - [Redux compose and middleware 源码分析](https://github.com/aototo/blog/issues/1)
 - [React and Redux 性能优化总结](https://github.com/aototo/blog/issues/2)
@@ -16,6 +16,10 @@
 - [ES6 promise & async](https://github.com/aototo/blog/issues/11)
 - ### react-native
     [react-native run android 环境配置](https://github.com/aototo/blog/issues/13)
+    
+## Atom 编辑器
+- [eslint & atom，基础配置 ](https://github.com/aototo/blog/issues/14)
+- [atom editorconfig 解决不同的缩进问题 ](https://github.com/aototo/blog/issues/15)
 
 ## 前端自动化 & 工具
 - [git 详细的操作指南笔记(从零开始)](https://github.com/aototo/blog/issues/3)
