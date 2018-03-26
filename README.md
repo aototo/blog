@@ -1,4 +1,4 @@
-## 推荐点最近收集到的优秀的Github
+## 推荐点最近收集到的干货的Github
 - [可能是让你受益匪浅的英语进阶指南](https://github.com/byoungd/English-level-up-tips-for-Chinese)
 - [移动端：Console for Mobile Browsers. 福音啊 有么有！](https://github.com/liriliri/eruda)
 - [个人中级前端的面试疑题，干货啊！Interview-Questions-Answers](https://github.com/Liyuk/Interview-Questions-Answers)
