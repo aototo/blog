@@ -1,7 +1,7 @@
-## 推荐点最近收集到的干货的Github
+## 推荐点长期项目需要用到的工具 Github
 - [可能是让你受益匪浅的英语进阶指南](https://github.com/byoungd/English-level-up-tips-for-Chinese)
 - [移动端：Console for Mobile Browsers. 福音啊 有么有！](https://github.com/liriliri/eruda)
-- [个人中级前端的面试疑题，干货啊！Interview-Questions-Answers](https://github.com/Liyuk/Interview-Questions-Answers)
+- [个人中级前端群好友整合的面试疑题，干货啊！Interview-Questions-Answers](https://github.com/Liyuk/Interview-Questions-Answers)
 - [ccxt 数字交易货币平台，封装了几十家交易所api](https://github.com/ccxt/ccxt)
 - [weui 微信UI组件](https://github.com/Tencent/weui)
 - [JBarrager 80行代码实现的高并发弹幕效果](https://github.com/Sailiy/JBarrager)
