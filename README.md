@@ -2,6 +2,15 @@
 - [可能是让你受益匪浅的英语进阶指南](https://github.com/byoungd/English-level-up-tips-for-Chinese)
 - [移动端：Console for Mobile Browsers. 福音啊 有么有！](https://github.com/liriliri/eruda)
 - [个人中级前端的面试疑题，干货啊！Interview-Questions-Answers](https://github.com/Liyuk/Interview-Questions-Answers)
+- [ccxt 数字交易货币平台，封装了几十家交易所api](https://github.com/ccxt/ccxt)
+- [weui 微信UI组件](https://github.com/Tencent/weui)
+- [JBarrager 80行代码实现的高并发弹幕效果](https://github.com/Sailiy/JBarrager)
+- [这里收集了许多移动端上遇到的各种坑](https://github.com/RubyLouvre/mobileHack)
+- [gold-miner 掘金的翻译计划，质量还可以](https://github.com/xitu/gold-miner)
+- [css3d-engine css 3d 性能差了点，实现很方便，个人经常再使用](https://github.com/shrekshrek/css3d-engine)
+- [js tween，简化版本的，不错](https://github.com/shrekshrek/jstween)
+- [localResizeIMG 前端本地客户端压缩图片，兼容IOS，Android，PC、修复图片方向等, 用了几年了，非常好用](https://github.com/think2011/localResizeIMG)
+
 
 ## 杂文2017
 - [js构造函数中的疑点](https://github.com/aototo/blog/issues/9)
