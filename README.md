@@ -15,7 +15,7 @@
 ## 杂文2017
 - [js构造函数中的疑点](https://github.com/aototo/blog/issues/9)
 - [webpack静态资源引入几种解决方案](https://github.com/aototo/blog/issues/10)
-- [proxychains在终端使用socks5代理]()
+- [proxychains在终端使用socks5代理](https://github.com/aototo/blog/issues/16)
 
 ## 性能优化
 - [Redux compose and middleware 源码分析](https://github.com/aototo/blog/issues/1)
