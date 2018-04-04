@@ -11,11 +11,13 @@
 - [js tween，简化版本的，不错](https://github.com/shrekshrek/jstween)
 - [localResizeIMG 前端本地客户端压缩图片，兼容IOS，Android，PC、修复图片方向等, 用了几年了，非常好用](https://github.com/think2011/localResizeIMG)
 
+## 杂文2018
+- [proxychains-ng 终端 socks5 代理](https://github.com/aototo/blog/issues/16)
 
 ## 杂文2017
 - [js构造函数中的疑点](https://github.com/aototo/blog/issues/9)
 - [webpack静态资源引入几种解决方案](https://github.com/aototo/blog/issues/10)
-- [proxychains-ng 终端 socks5 代理](https://github.com/aototo/blog/issues/16)
+
 
 ## 性能优化
 - [Redux compose and middleware 源码分析](https://github.com/aototo/blog/issues/1)
