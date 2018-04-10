@@ -13,6 +13,9 @@
 - [js tween，简化版本的，不错](https://github.com/shrekshrek/jstween)
 - [localResizeIMG 前端本地客户端压缩图片，兼容IOS，Android，PC、修复图片方向等, 用了几年了，非常好用](https://github.com/think2011/localResizeIMG)
 
+## WX小程序 & 小游戏
+- [微信小程序开发资源汇总](https://github.com/justjavac/awesome-wechat-weapp)
+
 ## 杂文2018
 - [proxychains-ng 终端 socks5 代理](https://github.com/aototo/blog/issues/16)
 
