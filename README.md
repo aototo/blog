@@ -15,6 +15,7 @@
 
 ## WX小程序 & 小游戏
 - [微信小程序开发资源汇总](https://github.com/justjavac/awesome-wechat-weapp)
+- [wechaty 基于微信网页接口的机器人 ，wechaty bot](https://github.com/Chatie/wechaty)
 
 ## 杂文2018
 - [proxychains-ng 终端 socks5 代理](https://github.com/aototo/blog/issues/16)
