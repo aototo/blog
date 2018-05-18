@@ -14,7 +14,7 @@
 - [localResizeIMG 前端本地客户端压缩图片，兼容IOS，Android，PC、修复图片方向等, 用了几年了，非常好用](https://github.com/think2011/localResizeIMG)
 
 ## 区块链，Dapp 应用
-- [时间胶囊](http://mercurymage.com/h5aotu/timeCapsule/) 基于区块链的时间胶囊，很符合这个需求
+- [时间胶囊](http://mercurymage.com/h5aotu/timeCapsule/) 自己写的基于区块链的时间胶囊，很符合这个需求，（用的是nas链）
 
 ## WX小程序 & 小游戏
 - [微信小程序开发资源汇总](https://github.com/justjavac/awesome-wechat-weapp)
