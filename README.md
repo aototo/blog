@@ -23,6 +23,7 @@
 ## 杂文2018
 - [proxychains-ng 终端 socks5 代理](https://github.com/aototo/blog/issues/16)
 - [wechaty服务端的使用，主要是headless chrome 在linux 环境下的问题](https://github.com/aototo/blog/issues/18)
+- [tor 使用]https://github.com/aototo/blog/issues/19
 
 ## 杂文2017
 - [js构造函数中的疑点](https://github.com/aototo/blog/issues/9)
