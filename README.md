@@ -1,3 +1,16 @@
+
+## 杂文
+- [MobX.js 使用笔记](https://github.com/aototo/blog/issues/20)
+- [proxychains-ng 终端 socks5 代理](https://github.com/aototo/blog/issues/16)
+- [wechaty服务端的使用，主要是headless chrome 在linux 环境下的问题](https://github.com/aototo/blog/issues/18)
+- [tor 使用](https://github.com/aototo/blog/issues/19)
+- [js构造函数中的疑点](https://github.com/aototo/blog/issues/9)
+- [webpack静态资源引入几种解决方案](https://github.com/aototo/blog/issues/10)
+
+## WX小程序 & 小游戏
+- [微信小程序开发资源汇总](https://github.com/justjavac/awesome-wechat-weapp)
+- [wechaty 基于微信网页接口的机器人 ，wechaty bot](https://github.com/Chatie/wechaty)
+
 ## 推荐点长期项目需要用到的工具 Github
 - [一套高质量的微信小程序 UI 组件库](https://github.com/TalkingData/iview-weapp)
 - [可能是让你受益匪浅的英语进阶指南](https://github.com/byoungd/English-level-up-tips-for-Chinese)
@@ -9,24 +22,6 @@
 - [gold-miner 掘金的翻译计划，质量还可以](https://github.com/xitu/gold-miner)
 - [css3d-engine css 3d 性能差了点，实现很方便，个人经常再使用](https://github.com/shrekshrek/css3d-engine)
 - [localResizeIMG 前端本地客户端压缩图片，兼容IOS，Android，PC、修复图片方向等, 用了几年了，非常好用](https://github.com/think2011/localResizeIMG)
-
-## 区块链，Dapp 应用
-- [时间胶囊](http://mercurymage.com/h5aotu/timeCapsule/) 
-
-## WX小程序 & 小游戏
-- [微信小程序开发资源汇总](https://github.com/justjavac/awesome-wechat-weapp)
-- [wechaty 基于微信网页接口的机器人 ，wechaty bot](https://github.com/Chatie/wechaty)
-
-## 杂文2018
-- [MobX.js 使用笔记](https://github.com/aototo/blog/issues/20)
-- [proxychains-ng 终端 socks5 代理](https://github.com/aototo/blog/issues/16)
-- [wechaty服务端的使用，主要是headless chrome 在linux 环境下的问题](https://github.com/aototo/blog/issues/18)
-- [tor 使用](https://github.com/aototo/blog/issues/19)
-
-## 杂文2017
-- [js构造函数中的疑点](https://github.com/aototo/blog/issues/9)
-- [webpack静态资源引入几种解决方案](https://github.com/aototo/blog/issues/10)
-
 
 ## 性能优化
 - [Redux compose and middleware 源码分析](https://github.com/aototo/blog/issues/1)
@@ -46,6 +41,9 @@
 ## Atom 编辑器
 - [eslint & atom，基础配置 ](https://github.com/aototo/blog/issues/14)
 - [atom editorconfig 解决不同的缩进问题 ](https://github.com/aototo/blog/issues/15)
+
+## 区块链，Dapp 应用
+- [时间胶囊](http://mercurymage.com/h5aotu/timeCapsule/) 
 
 ## 前端自动化 & 工具
 - [git 详细的操作指南笔记(从零开始)](https://github.com/aototo/blog/issues/3)
