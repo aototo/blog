@@ -38,7 +38,8 @@
 - ### react-native
     [react-native run android 环境配置](https://github.com/aototo/blog/issues/13)
     
-## Atom 编辑器
+## Atom && vsCode
+- [vscode 解决react jsx 下html tag自动补全设置](https://github.com/aototo/blog/issues/21)
 - [eslint & atom，基础配置 ](https://github.com/aototo/blog/issues/14)
 - [atom editorconfig 解决不同的缩进问题 ](https://github.com/aototo/blog/issues/15)
 
