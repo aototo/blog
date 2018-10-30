@@ -6,6 +6,7 @@
 - [tor 使用](https://github.com/aototo/blog/issues/19)
 - [js构造函数中的疑点](https://github.com/aototo/blog/issues/9)
 - [webpack静态资源引入几种解决方案](https://github.com/aototo/blog/issues/10)
+- [Vue 初体验](https://github.com/aototo/blog/issues/23)
 
 ## WX小程序 & 小游戏
 - [微信小程序开发资源汇总](https://github.com/justjavac/awesome-wechat-weapp)
