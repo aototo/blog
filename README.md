@@ -9,11 +9,20 @@
 - [Vue 初体验](https://github.com/aototo/blog/issues/23)
 - [使用storybook 维护 、测试react, vue组件](https://github.com/aototo/blog/issues/24)
 
+## 文章 & 视频 & 博客
+收藏一些比较受用的视频，文章
+1. 从协程到状态机--regenerator源码解析 [(1)](https://zhuanlan.zhihu.com/p/37562698) [(2)](https://zhuanlan.zhihu.com/p/37563837) [(3)](https://zhuanlan.zhihu.com/p/37563947)
+2. [编程的套路 - JavaScript设计模式](https://www.bilibili.com/video/av31667902)
+3. [小甲鱼-数据结构和算法](https://www.bilibili.com/video/av2975983)
+3. [力扣 刷题通关-冲鸭](https://leetcode-cn.com/)
+
 ## WX小程序 & 小游戏
 - [微信小程序开发资源汇总](https://github.com/justjavac/awesome-wechat-weapp)
 - [wechaty 基于微信网页接口的机器人 ，wechaty bot](https://github.com/Chatie/wechaty)
 
 ## 推荐点长期项目需要用到的工具 Github
+- [recompose 提供了一系列小而美的高阶函数，简化平常编写的代码](https://github.com/acdlite/recompose)
+- [qrcodejs 相对好用的qrcode 生成](https://github.com/davidshimjs/qrcodejs)
 - [一套高质量的微信小程序 UI 组件库](https://github.com/TalkingData/iview-weapp)
 - [可能是让你受益匪浅的英语进阶指南](https://github.com/byoungd/English-level-up-tips-for-Chinese)
 - [移动端：Console for Mobile Browsers. ](https://github.com/liriliri/eruda)
