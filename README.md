@@ -66,3 +66,4 @@
 
 ## Book
 - [个人收集的书单](https://github.com/aototo/blog/blob/master/Book/book.md)
+- [书单pdf](https://github.com/aototo/blog/blob/master/Book/)
