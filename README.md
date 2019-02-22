@@ -15,6 +15,7 @@
 2. [编程的套路 - JavaScript设计模式](https://www.bilibili.com/video/av31667902)
 3. [小甲鱼-数据结构和算法](https://www.bilibili.com/video/av2975983)
 3. [力扣 刷题通关-冲鸭](https://leetcode-cn.com/)
+3. [渗透攻击技术分享](https://github.com/Micropoor/Micro8)
 
 ## WX小程序 & 小游戏
 - [微信小程序开发资源汇总](https://github.com/justjavac/awesome-wechat-weapp)
