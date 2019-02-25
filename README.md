@@ -10,7 +10,7 @@
 - [使用storybook 维护 、测试react, vue组件](https://github.com/aototo/blog/issues/24)
 
 ## 文章 & 视频 & 博客
-收藏一些比较受用的视频，文章
+推荐视频，文章，博客
 1. 从协程到状态机--regenerator源码解析 [(1)](https://zhuanlan.zhihu.com/p/37562698) [(2)](https://zhuanlan.zhihu.com/p/37563837) [(3)](https://zhuanlan.zhihu.com/p/37563947)
 2. [编程的套路 - JavaScript设计模式](https://www.bilibili.com/video/av31667902)
 3. [小甲鱼-数据结构和算法](https://www.bilibili.com/video/av2975983)
