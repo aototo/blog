@@ -22,6 +22,7 @@
 3. [力扣 刷题通关-冲鸭](https://leetcode-cn.com/)
 3. [渗透攻击技术分享](https://github.com/Micropoor/Micro8)
 3. [中国科学技术大学计算机学院课程资源](https://github.com/mbinary/USTC-CS-Courses-Resource)
+3. [免费的计算机编程类中文书籍](https://github.com/justjavac/free-programming-books-zh_CN)
 
 ## WX小程序 & 小游戏
 - [微信小程序开发资源汇总](https://github.com/justjavac/awesome-wechat-weapp)
