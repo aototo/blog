@@ -1,13 +1,18 @@
 
-## 杂文
-- [MobX.js 使用笔记](https://github.com/aototo/blog/issues/20)
-- [proxychains-ng 终端 socks5 代理](https://github.com/aototo/blog/issues/16)
-- [wechaty服务端的使用，主要是headless chrome 在linux 环境下的问题](https://github.com/aototo/blog/issues/18)
-- [tor 使用](https://github.com/aototo/blog/issues/19)
-- [js构造函数中的疑点](https://github.com/aototo/blog/issues/9)
-- [webpack静态资源引入几种解决方案](https://github.com/aototo/blog/issues/10)
-- [Vue 初体验](https://github.com/aototo/blog/issues/23)
-- [使用storybook 维护 、测试react, vue组件](https://github.com/aototo/blog/issues/24)
+## 性能优化
+- [Redux compose and middleware 源码分析](https://github.com/aototo/blog/issues/1)
+- [React and Redux 性能优化总结](https://github.com/aototo/blog/issues/2)
+
+## 框架 & 项目经验
+- [react 生命周期详解(React Lifecycle)](https://github.com/aototo/blog/blob/master/%E5%89%8D%E7%AB%AF/React-Lifecycle.md)
+- [如何合理布置React/Redux的目录结构](https://github.com/aototo/blog/blob/master/%E5%89%8D%E7%AB%AF/file_structure_for_react.md)
+- [项目中react的一些小技巧](https://github.com/aototo/blog/blob/master/%E5%89%8D%E7%AB%AF/201704/react-write.md)
+- [高性能Javascript小结](https://github.com/aototo/blog/issues/6)
+- [总结Js的单例模式&实践](https://github.com/aototo/blog/issues/7)
+- [基于socket.io的实时在线HTML5游戏思路](https://github.com/aototo/blog/issues/8)
+- [ES6 promise & async](https://github.com/aototo/blog/issues/11)
+- ### react-native
+    [react-native run android 环境配置](https://github.com/aototo/blog/issues/13)
 
 ## 文章 & 视频 & 博客
 推荐视频，文章，博客
@@ -36,20 +41,15 @@
 - [css3d-engine css 3d 性能差了点，实现很方便，个人经常再使用](https://github.com/shrekshrek/css3d-engine)
 - [localResizeIMG 前端本地客户端压缩图片，兼容IOS，Android，PC、修复图片方向等, 用了几年了，非常好用](https://github.com/think2011/localResizeIMG)
 
-## 性能优化
-- [Redux compose and middleware 源码分析](https://github.com/aototo/blog/issues/1)
-- [React and Redux 性能优化总结](https://github.com/aototo/blog/issues/2)
-
-## 框架 & 项目经验
-- [react 生命周期详解(React Lifecycle)](https://github.com/aototo/blog/blob/master/%E5%89%8D%E7%AB%AF/React-Lifecycle.md)
-- [如何合理布置React/Redux的目录结构](https://github.com/aototo/blog/blob/master/%E5%89%8D%E7%AB%AF/file_structure_for_react.md)
-- [项目中react的一些小技巧](https://github.com/aototo/blog/blob/master/%E5%89%8D%E7%AB%AF/201704/react-write.md)
-- [高性能Javascript小结](https://github.com/aototo/blog/issues/6)
-- [总结Js的单例模式&实践](https://github.com/aototo/blog/issues/7)
-- [基于socket.io的实时在线HTML5游戏思路](https://github.com/aototo/blog/issues/8)
-- [ES6 promise & async](https://github.com/aototo/blog/issues/11)
-- ### react-native
-    [react-native run android 环境配置](https://github.com/aototo/blog/issues/13)
+## 杂文
+- [MobX.js 使用笔记](https://github.com/aototo/blog/issues/20)
+- [proxychains-ng 终端 socks5 代理](https://github.com/aototo/blog/issues/16)
+- [wechaty服务端的使用，主要是headless chrome 在linux 环境下的问题](https://github.com/aototo/blog/issues/18)
+- [tor 使用](https://github.com/aototo/blog/issues/19)
+- [js构造函数中的疑点](https://github.com/aototo/blog/issues/9)
+- [webpack静态资源引入几种解决方案](https://github.com/aototo/blog/issues/10)
+- [Vue 初体验](https://github.com/aototo/blog/issues/23)
+- [使用storybook 维护 、测试react, vue组件](https://github.com/aototo/blog/issues/24)
     
 ## Atom && vsCode
 - [vscode 解决react jsx 下html tag自动补全设置](https://github.com/aototo/blog/issues/21)
