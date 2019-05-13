@@ -1,3 +1,5 @@
+## 一些问题
+- [更新npm 6.x 版本，使用npm-audit 修复npm包存在的漏洞](https://github.com/aototo/blog/issues/25)
 
 ## 性能优化
 - [Redux compose and middleware 源码分析](https://github.com/aototo/blog/issues/1)
