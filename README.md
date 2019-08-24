@@ -26,6 +26,16 @@
 3. [中国科学技术大学计算机学院课程资源](https://github.com/mbinary/USTC-CS-Courses-Resource)
 3. [免费的计算机编程类中文书籍](https://github.com/justjavac/free-programming-books-zh_CN)
 
+#### BILIBILI 学习 ヾ(◍°∇°◍)ﾉﾞ
+1. [VUE框架源码--前面8章节](https://www.bilibili.com/video/av35337676) 
+2. [VUE框架源码--后面9-12章节](https://www.bilibili.com/video/av35340335) 
+3. [用Vue CLI打造属于自己的项目脚手架工具](https://www.bilibili.com/video/av56866056)
+4. [2015 CMU 15-213 CSAPP 深入理解计算机系](https://www.bilibili.com/video/av31289365)
+5. [计算机科学速成课40集全/精校](https://www.bilibili.com/video/av21376839)
+
+
+
+
 ## WX小程序 & 小游戏
 - [微信小程序开发资源汇总](https://github.com/justjavac/awesome-wechat-weapp)
 - [wechaty 基于微信网页接口的机器人 ，wechaty bot](https://github.com/Chatie/wechaty)
@@ -53,7 +63,7 @@
 - [webpack静态资源引入几种解决方案](https://github.com/aototo/blog/issues/10)
 - [Vue 初体验](https://github.com/aototo/blog/issues/23)
 - [使用storybook 维护 、测试react, vue组件](https://github.com/aototo/blog/issues/24)
-    
+  
 ## Atom && vsCode
 - [vscode 解决react jsx 下html tag自动补全设置](https://github.com/aototo/blog/issues/21)
 - [eslint & atom，基础配置 ](https://github.com/aototo/blog/issues/14)
