@@ -41,7 +41,10 @@
 
 ### 项目和作品
 
-1. 人力窝背调
+1. 人力窝背调 
+![avatar](https://raw.githubusercontent.com/aototo/blog/master/assets/img/renliwo.png)
+
+
 
 ### 支付宝小程序 (`可以在支付宝搜索以下小程序`)
 > 人力窝背调，人力窝服务，社保代办，公积金计算器，养老金计算器，社保计算器，个税计算器，人力窝背调，社保代跑腿
